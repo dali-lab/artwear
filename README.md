@@ -9,12 +9,11 @@ Artwear is a e-commerce website bridging artists in Vietnam and overseas market 
 
 ####design mock
 1. __gallery__:
-    ![alt tag](https://slack-files.com/T02FQFVUX-F0LT7FQQY-dbfcb107fa)
+    https://slack-files.com/T02FQFVUX-F0LT7FQQY-dbfcb107fa
 
 2. __product-designer__:
-    ![alt tag](https://slack-files.com/T02FQFVUX-F0LT42A9Z-8164bdf709)
+    https://slack-files.com/T02FQFVUX-F0LT42A9Z-8164bdf709
 
 3. __landing-page__:
-    ![alt tag](https://slack-files.com/T02FQFVUX-F0LT0KER2-6a9c74497c)
+    https://slack-files.com/T02FQFVUX-F0LT0KER2-6a9c74497c
 
-    
