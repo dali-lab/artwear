@@ -1,0 +1,462 @@
+<fieldset>
+  <legend>Appearance &amp; Fonts</legend>
+
+  <h3>Background</h3>
+  <table>
+    <tr>
+      <td><label for="body_background_image">Background Image</label></td>
+      <td>
+        <select name="body_background_image" id="body_background_image">
+          <option value="none">No Image</option>
+          <option value="custom_background_image">Use Custom Image</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td>
+        <input type="file" id="custom_background_image" name="custom_background_image"  />
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="body_background_x">Background Horizontal Position</label></td>
+      <td>
+        <select id="body_background_x" name="body_background_x">
+          <option value="0%">Left</option>
+          <option value="50%">Center</option>
+          <option value="100%">Right</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="body_background_y">Background Vertical Position</label></td>
+      <td>
+        <select id="body_background_y" name="body_background_y">
+          <option value="0%">Top</option>
+          <option value="50%">Center</option>
+          <option value="100%">Bottom</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="body_background_repeat">Background Tiling</label></td>
+      <td>
+        <select name="body_background_repeat">
+          <option value="no-repeat">Don't Tile</option>
+          <option value="repeat">Tile</option>
+          <option value="repeat-x">Tile Horizontally</option>
+          <option value="repeat-y">Tile Vertically</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="body_background_color">Background Color</label></td>
+      <td>
+        <input id="body_background_color" name="body_background_color" class="color" value="#FFFFFF" />
+      </td>
+    </tr>
+  </table>
+
+  <h3>Footer</h3>
+  <table>
+    <tr>
+      <td><label for="footer_background_color">Footer Background Color</label></td>
+      <td>
+        <input id="footer_background_color" name="footer_background_color" class="color" value="#F8F8F8" />
+      </td>
+    </tr>
+    <tr>
+      <td><label for="footer_text_color">Footer Text Color</label></td>
+      <td>
+        <input id="footer_text_color" name="footer_text_color" class="color" value="#777777" />
+      </td>
+    </tr>
+    <tr>
+      <td><label for="footer_link_color">Footer Link Color</label></td>
+      <td>
+        <input id="footer_link_color" name="footer_link_color" class="color" value="#428bca" />
+      </td>
+    </tr>
+    <tr>
+      <td><label for="footer_link_hover_color">Footer Link Hover Color</label></td>
+      <td>
+        <input id="footer_link_hover_color" name="footer_link_hover_color" class="color" value="#2a6496" />
+      </td>
+    </tr>
+  </table>
+
+  <h3>Fonts</h3>
+  <table>
+    <tr>
+      <td><label for="font_base">Base Font</label></td>
+      <td>
+        <select name="font_base" id="font_base">
+          <option value="'Helvetica Neue', Helvetica, Arial, sans-serif">Helvetica / Arial</option>
+          <option value="'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif">Lucida Grande</option>
+          <option value="Verdana, Helvetica, Arial, sans-serif">Verdana</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="font_heading">Heading Font</label></td>
+      <td>
+        <select name="font_heading" id="font_heading">
+          <option value="'Helvetica Neue', Helvetica, Arial, sans-serif">Helvetica / Arial</option>
+          <option value="'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif">Lucida Grande</option>
+          <option value="Verdana, Helvetica, Arial, sans-serif">Verdana</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+
+  <h3>Checkout</h3>
+  <table>
+    <tr>
+      <td></td>
+      <td>
+        <input type="file" id="logo_checkout_image" name="logo_checkout_image"  />
+        <small>
+          The checkout logo should be 65px high and approximately 650px wide.
+        </small>
+      </td>
+    </tr>
+  </table>
+</fieldset>
+
+<fieldset>
+  <legend>Navigation Bar</legend>
+
+  <table>
+    <tr>
+      <td><label for="logo_navbar">Navbar Logo</label></td>
+      <td>
+        <select name="logo_navbar" id="logo_navbar">
+          <option value="text">Store Name Only</option>
+          <option value="image">Uploaded Image Only</option>
+          <option value="both">Uploaded Image &amp; Store Name</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td>
+        <input type="file" id="logo_navbar_image" name="logo_navbar_image"  />
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <small>
+          Navbar logos will be scaled to a height of 40px - the recommended image size is 360px x 80px, for crisp logo display on high-resolution (Retina) devices.
+        </small>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="navbar_linklist">Navigation Bar Link List</label></td>
+      <td>
+        <select class="linklist" name="navbar_linklist" id="navbar_linklist" />
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="navbar_positioning">Navigation Bar Positioning</label></td>
+      <td>
+        <select name="navbar_positioning" id="navbar_positioning">
+          <option value="static-top">Scroll with rest of page (default)</option>
+          <option value="fixed-top">Fix to top of screen</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+</fieldset>
+
+<fieldset>
+  <legend>Slideshow</legend>
+
+  <table>
+    <tr>
+      <td><label for="slideshow_position">Position</label></td>
+      <td>
+        <select name="slideshow_position" id="slideshow_position">
+          <option value="">Off</option>
+          <option value="content">Inside page content (Default)</option>
+          <option value="top">Top of page</option>
+          <option value="full">Full width</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Pause on Hover</td>
+      <td><label><input type="checkbox" name="slideshow_pause" /> Pause Slideshow on mouse hover</label></td>
+    </tr>
+    <tr>
+      <td>Interval</td>
+      <td><input type="text" name="slideshow_interval" /></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <small>Value is in ms (5000ms = 5 seconds).</small>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <small>
+          Slide images will be resized automatically to fit the slideshow.
+          Images have a maximum width of 1200px, and it's recommended to have all slide images the same height to avoid shifting page heights.
+        </small>
+      </td>
+    </tr>
+  </table>
+
+  <h3>First Slide</h3>
+  <table>
+    <tr>
+      <td>Enabled</td>
+      <td><label><input type="checkbox" name="slideshow_show_1" /> Show First Slide</label></td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><input type="file" name="slideshow-image-1.jpg"  data-max-width="1200" /></td>
+    </tr>
+    <tr>
+      <td>Link URL (Optional)</td>
+      <td><input type="text" name="slideshow_url_1" /></td>
+    </tr>
+    <tr>
+      <td>Caption Title (Optional)</td>
+      <td><input type="text" name="slideshow_title_1" /></td>
+    </tr>
+    <tr>
+      <td>Caption Content (Optional)</td>
+      <td><input type="text" name="slideshow_description_1" /></td>
+    </tr>
+  </table>
+
+  <h3>Second Slide</h3>
+  <table>
+    <tr>
+      <td>Enabled</td>
+      <td><label><input type="checkbox" name="slideshow_show_2" /> Show Second Slide</label></td>
+    </tr>
+    <tr>
+      <td>Link URL (Optional)</td>
+      <td><input type="text" name="slideshow_url_2" /></td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><input type="file" name="slideshow-image-2.jpg" data-max-width="1200" /></td>
+    </tr>
+    <tr>
+      <td>Caption Title (Optional)</td>
+      <td><input type="text" name="slideshow_title_2" /></td>
+    </tr>
+    <tr>
+      <td>Caption Content (Optional)</td>
+      <td><input type="text" name="slideshow_description_2" /></td>
+    </tr>
+  </table>
+
+  <h3>Third Slide</h3>
+  <table>
+    <tr>
+      <td>Enabled</td>
+      <td><label><input type="checkbox" name="slideshow_show_3" /> Show Third Slide</label></td>
+    </tr>
+    <tr>
+      <td>Link URL (Optional)</td>
+      <td><input type="text" name="slideshow_url_3" /></td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><input type="file" name="slideshow-image-3.jpg" data-max-width="1200" /></td>
+    </tr>
+    <tr>
+      <td>Caption Title (Optional)</td>
+      <td><input type="text" name="slideshow_title_3" /></td>
+    </tr>
+    <tr>
+      <td>Caption Content (Optional)</td>
+      <td><input type="text" name="slideshow_description_3" /></td>
+    </tr>
+  </table>
+
+  <h3>Fourth Slide</h3>
+  <table>
+    <tr>
+      <td>Enabled</td>
+      <td><label><input type="checkbox" name="slideshow_show_4" /> Show Fourth Slide</label></td>
+    </tr>
+    <tr>
+      <td>Link URL (Optional)</td>
+      <td><input type="text" name="slideshow_url_4" /></td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><input type="file" name="slideshow-image-4.jpg" data-max-width="1200" /></td>
+    </tr>
+    <tr>
+      <td>Caption Title (Optional)</td>
+      <td><input type="text" name="slideshow_title_4" /></td>
+    </tr>
+    <tr>
+      <td>Caption Content (Optional)</td>
+      <td><input type="text" name="slideshow_description_4" /></td>
+    </tr>
+  </table>
+
+  <h3>Fifth Slide</h3>
+  <table>
+    <tr>
+      <td>Enabled</td>
+      <td><label><input type="checkbox" name="slideshow_show_5" /> Show Fifth Slide</label></td>
+    </tr>
+    <tr>
+      <td>Link URL (Optional)</td>
+      <td><input type="text" name="slideshow_url_5" /></td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><input type="file" name="slideshow-image-5.jpg" data-max-width="1200" /></td>
+    </tr>
+    <tr>
+      <td>Caption Title (Optional)</td>
+      <td><input type="text" name="slideshow_title_5" /></td>
+    </tr>
+    <tr>
+      <td>Caption Content (Optional)</td>
+      <td><input type="text" name="slideshow_description_5" /></td>
+    </tr>
+  </table>
+</fieldset>
+
+<fieldset>
+  <legend>Sidebar</legend>
+
+  <table>
+    <tr>
+      <td><label for="sidebar_position">Position</label></td>
+      <td>
+        <select name="sidebar_position" id="sidebar_position">
+          <option value="">Off</option>
+          <option value="left">Left</option>
+          <option value="right">Right</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="sidebar_linklist">Sidebar Link List</label></td>
+      <td>
+        <select class="linklist" name="sidebar_linklist" id="sidebar_linklist" />
+      </td>
+    </tr>
+  </table>
+</fieldset>
+
+<fieldset>
+  <legend>Products</legend>
+
+  <h3>Collection Pages</h3>
+  <table>
+    <tr>
+      <td><label><input type="checkbox" id="product_show_sale_tag" name="product_show_sale_tag" /> Show 'Sale' tag when price lower than compare at price</label></td>
+    </tr>
+  </table>
+
+  <h3>Product Pages</h3>
+  <table>
+    <tr>
+      <td><label><input type="checkbox" id="product_show_twitter" name="product_show_twitter" /> Show 'Tweet' widget on Product pages</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" id="product_show_facebook" name="product_show_facebook" /> Show 'Like' widget on Product pages</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" id="product_show_pinterest" name="product_show_pinterest" /> Show 'Pin This' widget on Product pages</label></td>
+    </tr>
+  </table>
+</fieldset>
+
+<fieldset>
+  <legend>Footer</legend>
+
+  <h3>Displayed Payment Methods</h3>
+  <table>
+    <tr>
+      <td><label><input type="checkbox" id="pay_amex" name="pay_amex" /> AMEX</label></td>
+      <td><label><input type="checkbox" id="pay_laser" name="pay_laser" /> Laser</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" id="pay_money" name="pay_money" /> Cash</label></td>
+      <td><label><input type="checkbox" id="pay_maestro" name="pay_maestro" /> Maestro</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" id="pay_dankort" name="pay_dankort" /> Dankort</label></td>
+      <td><label><input type="checkbox" id="pay_mastercard" name="pay_mastercard" /> Mastercard</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" id="pay_diners" name="pay_diners" /> Diners</label></td>
+      <td><label><input type="checkbox" id="pay_paypal" name="pay_paypal" /> Paypal</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" id="pay_discover" name="pay_discover" /> Discover</label></td>
+      <td><label><input type="checkbox" id="pay_shopify" name="pay_shopify" /> Shopify</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" id="pay_forbru" name="pay_forbru" /> Forbru</label></td>
+      <td><label><input type="checkbox" id="pay_solo" name="pay_solo" /> Solo</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" id="pay_google" name="pay_google" /> Google</label></td>
+      <td><label><input type="checkbox" id="pay_visa" name="pay_visa" /> Visa</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" id="pay_jcb" name="pay_jcb" /> JCB</label></td>
+    </tr>
+  </table>
+
+  <h3>Displayed Social Media Links</h3>
+  <table>
+    <tr>
+      <td><label><input type="checkbox" name="social_show_twitter" /> Show Twitter</label></td>
+      <td><label><input type="text" name="social_url_twitter" /> Twitter URL</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" name="social_show_facebook" /> Show Facebook</label></td>
+      <td><label><input type="text" name="social_url_facebook" /> Facebook URL</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" name="social_show_pinterest" /> Show Pinterest</label></td>
+      <td><label><input type="text" name="social_url_pinterest" /> Pinterest URL</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" name="social_show_email" /> Show Email</label></td>
+      <td><label><input type="text" name="social_email_address" /> Email Address</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" name="social_show_google_plus" /> Show Google Plus</label></td>
+      <td><label><input type="text" name="social_url_google_plus" /> G+ URL</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" name="social_show_flickr" /> Show Flickr</label></td>
+      <td><label><input type="text" name="social_url_flickr " /> Flickr URL</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" name="social_show_youtube" /> Show YouTube</label></td>
+      <td><label><input type="text" name="social_url_youtube" /> YouTube URL</label></td>
+    </tr>
+    <tr>
+      <td><label><input type="checkbox" name="social_show_tumblr" /> Show Tumblr</label></td>
+      <td><label><input type="text" name="social_url_tumblr" /> Tumblr URL</label></td>
+    </tr>
+  </table>
+
+</fieldset>
